@@ -1,0 +1,102 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.ris{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(kimetsu.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cyrcle{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background: linear-gradient(135deg, rgb(255,255,255,0.1),rgb(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(0,0,0,0.37);
+    box-shadow: 0 8px 32px 0 rgb(0,0,0,0.37);
+}
+
+.wse{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wse h1{
+    font-size: 60px;
+    color: white;
+}
+.wse input{
+    outline: none;
+    border: 3px solid #11331c9c;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    background: #ffffff;
+    transition: .2s;
+    color: white;
+}
+::placeholder{
+    color: #1f5f33;
+    font-size: 25px;
+    padding: 0 20px;
+}
+.wse input:hover{
+    background: transparent;
+}
+
+.wse a{
+    text-decoration: none;
+    color: #1f5f33;
+}
+
+.wse button{
+    padding: 5px 20px;
+    margin: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 3px solid #11331c9c;
+    color: #1f5f33;
+    transition: .3s;
+}
+.wse button:hover{
+    background: transparent;
+}
+
+.wse .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+    border: 2px solid white;
+    transform: translateY(30px);
+    background-image: url(tanjiro.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
+.wse .img:hover{
+    box-shadow: 0 8px 32px 0 rgba(56, 126, 47, 0.514);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(tanjiro.jpg);
+}
+
+
+
+
+
+
+
+
+
+
